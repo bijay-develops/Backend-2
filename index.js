@@ -11,7 +11,7 @@ app.get("/", function(req, res){
     res.render("index");
 }) 
 
-app.get("/profile/bijay", function(req, res){
+app.get("/profile/:username", function(req, res){
     res.send("chaliraaxa");
 }) 
 
